@@ -35,9 +35,9 @@ export class Login {
     * @param user username, default value is 'admin'
     * @param pass username, default value is empty string
     */
-   async processLogin() {
-      const username = process.env.TESTUSER || 'admin';
-      const password = process.env.PASSWORD || '';
+   async processLogin(user?: string, pass?: string) {
+      const username = process.env.TESTUSER || user || 'admin';
+      const password = process.env.PASSWORD || pass || '';
 
       // enter username, password and click Sign In button
       await this.page.locator(loc_username).fill(username);
