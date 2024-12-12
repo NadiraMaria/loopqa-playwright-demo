@@ -1,0 +1,56 @@
+[
+   {
+      "title": "case 1",
+      "project": "Web Application",
+      "ticketStatus": "To Do",
+      "verify": {
+         "ticketTitle": "Implement user authentication",
+         "tags": ["Feature", "High Priority"]
+      }
+   },
+   {
+      "title": "case 2",
+      "project": "Web Application",
+      "ticketStatus": "To Do",
+      "verify": {
+         "ticketTitle": "Fix navigation bug",
+         "tags": ["Bug"]
+      }
+   },
+   {
+      "title": "case 3",
+      "project": "Web Application",
+      "ticketStatus": "In Progress",
+      "verify": {
+         "ticketTitle": "Design system updates",
+         "tags": ["Design"]
+      }
+   },
+   {
+      "title": "case 4",
+      "project": "Mobile Application",
+      "ticketStatus": "To Do",
+      "verify": {
+         "ticketTitle": "Push notification system",
+         "tags": ["Feature"]
+      }
+   },
+   {
+      "title": "case 5",
+      "project": "Mobile Application",
+      "ticketStatus": "In Progress",
+      "verify": {
+         "ticketTitle": "Offline mode",
+         "tags": ["Feature", "High Priority"]
+      }
+   },
+   {
+      "title": "case 6",
+      "project": "Mobile Application",
+      "ticketStatus": "Done",
+      "verify": {
+         "ticketTitle": "App icon design",
+         "tags": ["Design"]
+      }
+   }
+]
