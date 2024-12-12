@@ -31,7 +31,8 @@ To run the tests, you must always provide the password for the test users. Note 
 
 Example:
 ```bash
-SITE="https://animated-gingersnap-8cf7f2.netlify.app" TESTUSER=admin PASSWORD=password123 npx playwright test
+SITE="https://animated-gingersnap-8cf7f2.netlify.app"\
+ TESTUSER=admin PASSWORD=password123 npx playwright test
 ```
 
 Since the default values for `SITE` and `TESTUSER` are already in the codebase, you only need to provide the `PASSWORD` value to run the tests.
