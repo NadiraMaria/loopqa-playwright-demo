@@ -6,12 +6,12 @@ Follow these steps to run the tests from this framework:
 ## Dependency Installation
 
 Please install all the module dependencies by running the following command in the root directory:
-```shell
+```bash
 npm install
 ```
 
 Please ensure that the Playwright browser binaries are installed by running the following command:
-```shell
+```bash
 npx playwright install
 ```
 
@@ -30,7 +30,7 @@ To run the tests, you must always provide the password for the test users. Note 
 
 
 Example:
-```shel
+```bash
 SITE="https://animated-gingersnap-8cf7f2.netlify.app" TESTUSER=admin PASSWORD=password123 npx playwright test
 ```
 
@@ -39,21 +39,21 @@ Since the default values for `SITE` and `TESTUSER` are already in the codebase, 
 
 Running all tests:
 
-```shell
+```bash
 PASSWORD=password123 npx playwright test
 ```
 
 
 Running a specific spec file:
 
-```shell
+```bash
 PASSWORD=password123 npx playwright test tests/smoke.spec.ts
 ```
 
 
 Running specific test project ( a collection of tests):
 
-```shell
+```bash
 PASSWORD=password123 npx playwright test --project=firefox
 ```
 
@@ -63,6 +63,6 @@ PASSWORD=password123 npx playwright test --project=firefox
 
 ## Viewing Test Result 
 You can view the test results by running the following command:
-```shell
+```bash
 npx playwright show-report reports 
 ```
