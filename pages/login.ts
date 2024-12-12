@@ -14,20 +14,20 @@ export class Login {
    }
 
    /**
-    * Given the URL of test site, it navigates to the test site.  Please make sure to provide the test site URL
-    * via command line when you invoking the test.
+    * Given the url of test site, it navigates to the test site.  Please make sure to provide the test site url
+    * via command line when you invoking the test, env value for the url is SITE.
     *
     * @example
     *   await loginPage.open();
     */
    async open() {
-      const testSite = process.env.URL ?? 'https://animated-gingersnap-8cf7f2.netlify.app';
+      const testSite = process.env.SITE || 'https://animated-gingersnap-8cf7f2.netlify.app';
       await this.page.goto(testSite);
    }
 
    /**
     * Given the username and password, it process user for the site login.  Please ensure to provide the vaue
-    * for both user and password via command line where corresponding env values are ( USERNAME, PASSWORD )
+    * for both user and password via command line where corresponding env values are ( TESTUSER, PASSWORD )
     *
     * @example
     *   await loginPage.processLogin();
@@ -35,9 +35,9 @@ export class Login {
     * @param user username, default value is 'admin'
     * @param pass username, default value is empty string
     */
-   async processLogin(user: string = 'admin', pass: string = '') {
-      const username = process.env.USERNAME ?? user;
-      const password = process.env.PASSWORD ?? pass;
+   async processLogin() {
+      const username = process.env.TESTUSER || 'admin';
+      const password = process.env.PASSWORD || '';
 
       // enter username, password and click Sign In button
       await this.page.locator(loc_username).fill(username);
