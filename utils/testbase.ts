@@ -4,17 +4,17 @@ import { test as base } from '@playwright/test';
 import { Login } from '../pages/login';
 import { Projects } from '../pages/projects';
 
-type pomfixtures = {
+type pageObjFixtures = {
    loginPage: Login;
-   projPage: Projects;
+   projectsPage: Projects;
 };
 
 // exporting test object
-export const test = base.extend<pomfixtures>({
+export const test = base.extend<pageObjFixtures>({
    loginPage: async ({ page }, use) => {
       use(new Login(page));
    },
-   projPage: async ({ page }, use) => {
+   projectsPage: async ({ page }, use) => {
       use(new Projects(page));
    },
 });

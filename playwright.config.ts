@@ -18,25 +18,25 @@ export default defineConfig({
             screenshot: 'on',
          },
       },
-      // {
-      //    name: 'firefox',
-      //    testMatch: '*/tests/*.spec.js',
-      //    use: {
-      //       ...devices['Desktop Firefox'],
-      //       viewport: { width: 1980, height: 1080 },
-      //       trace: 'on',
-      //       screenshot: 'on',
-      //    },
-      // },
-      // {
-      //    name: 'safari',
-      //    testMatch: '*/tests/*.spec.js',
-      //    use: {
-      //       ...devices['Desktop Safari'],
-      //       viewport: { width: 1980, height: 1080 },
-      //       trace: 'on',
-      //       screenshot: 'on',
-      //    },
-      // },
+      {
+         name: 'firefox',
+         testMatch: '*tests/*.spec.ts',
+         use: {
+            ...devices['Desktop Firefox'],
+            viewport: { width: 1980, height: 1080 },
+            trace: 'on',
+            screenshot: 'on',
+         },
+      },
+      {
+         name: 'safari',
+         testMatch: '*tests/*.spec.ts',
+         use: {
+            ...devices['Desktop Safari'],
+            viewport: { width: 1980, height: 1080 },
+            trace: 'on',
+            screenshot: 'on',
+         },
+      },
    ],
 });
