@@ -5,8 +5,8 @@ export const SideMenu = {
 };
 
 export const TicketStatus = {
-   ToDo: 1,
-   InProg: 2,
-   Review: 3,
-   Done: 4,
+   "To Do": 0,
+   "In Progress": 1,
+   "Review": 2,
+   "Done": 3,
 };

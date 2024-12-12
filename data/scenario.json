@@ -1,53 +1,59 @@
 [
    {
-      "title": "case 1",
+      "title": "1 - verify ticket title and tags",
       "project": "Web Application",
       "ticketStatus": "To Do",
+      "ticketPosition": 1,
       "verify": {
          "ticketTitle": "Implement user authentication",
          "tags": ["Feature", "High Priority"]
       }
    },
    {
-      "title": "case 2",
+      "title": "2 - verify ticket title and tags",
       "project": "Web Application",
       "ticketStatus": "To Do",
+      "ticketPosition": 2,
       "verify": {
          "ticketTitle": "Fix navigation bug",
          "tags": ["Bug"]
       }
    },
    {
-      "title": "case 3",
+      "title": "3 - verify ticket title and tags",
       "project": "Web Application",
       "ticketStatus": "In Progress",
+      "ticketPosition": 1,
       "verify": {
          "ticketTitle": "Design system updates",
          "tags": ["Design"]
       }
    },
    {
-      "title": "case 4",
+      "title": "4 - verify ticket title and tags",
       "project": "Mobile Application",
       "ticketStatus": "To Do",
+      "ticketPosition": 1,
       "verify": {
          "ticketTitle": "Push notification system",
          "tags": ["Feature"]
       }
    },
    {
-      "title": "case 5",
+      "title": "5  - verify ticket title and tags",
       "project": "Mobile Application",
       "ticketStatus": "In Progress",
+      "ticketPosition": 1,
       "verify": {
          "ticketTitle": "Offline mode",
          "tags": ["Feature", "High Priority"]
       }
    },
    {
-      "title": "case 6",
+      "title": "6  - verify ticket title and tags",
       "project": "Mobile Application",
       "ticketStatus": "Done",
+      "ticketPosition": 1,
       "verify": {
          "ticketTitle": "App icon design",
          "tags": ["Design"]

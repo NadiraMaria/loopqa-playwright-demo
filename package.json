@@ -1,17 +1,16 @@
 {
-  "name": "loopqa-playwright-demo",
-  "version": "1.0.0",
-  "description": "demo playwright test automation framework for loopqa",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Nadira Muhtar",
-  "license": "ISC",
-  "devDependencies": {
-    "@playwright/test": "^1.49.1",
-    "@types/node": "^22.10.2",
-    "playwright": "^1.49.1",
-    "prettier": "^3.4.2"
-  }
+   "name": "loopqa-playwright-demo",
+   "version": "1.0.0",
+   "description": "demo playwright test automation framework for loopqa",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "author": "Nadira Muhtar",
+   "license": "ISC",
+   "devDependencies": {
+      "@playwright/test": "^1.49.1",
+      "@types/node": "^22.10.2",
+      "playwright": "^1.49.1",
+      "prettier": "^3.4.2"
+   }
 }
