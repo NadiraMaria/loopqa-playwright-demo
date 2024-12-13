@@ -21,7 +21,7 @@ npx playwright install
 To run the tests, you must always provide the password for the test users. Note that the password is not included in the codebase for security reasons. Below is the environment variable you need to set for test execution. If you are using these variables in your CI/CD pipeline, ensure that the corresponding environment variables are created.
 
 
-- `URL` for test site url value, default is "https://animated-gingersnap-8cf7f2.netlify.app" if not given
+- `SITE` for test site url value, default is "https://animated-gingersnap-8cf7f2.netlify.app" if not given
 - `USERNAME` test username, default is 'admin' if not given
 - `PASSWORD` test user password, you need to provide this all the time,
 
